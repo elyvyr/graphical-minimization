@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Graphical Method – Minimization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Graphical Method – Minimization</h1>
+        <p class="sub">Linear programming (≥ constraints). Edit the table, then press Solve.</p>
+
+        <section class="card">
+            <h2>Problem setup</h2>
+            <div class="scroll">
+<div class="row">Problem: <input class="n" id="ttl" style="width:260px"></div>
+                <table id="inp"></table>
+                <div class="row"><button class="alt" onclick="addRow()">+ Add service</button><button class="alt"
+                        onclick="delRow()">− Remove last</button><button onclick="solve()">Solve</button></div>
+            </div>
+        </section>
+        <div id="out"></div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
